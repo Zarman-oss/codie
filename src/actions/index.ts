@@ -21,3 +21,5 @@ export async function deleteSnippet(formData: FormData) {
   });
   redirect('/');
 }
+
+

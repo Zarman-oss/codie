@@ -2,7 +2,6 @@ import { notFound } from 'next/navigation';
 import React from 'react';
 import { db } from '../../../db/index';
 import * as actions from '../../../actions';
-
 import Link from 'next/link';
 
 interface SnippetShowPageProps {

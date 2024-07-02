@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
 import { db } from '@/db';
-import { deleteSnippet } from '../../actions';
+import Link from 'next/link';
+
+export const dynamic = 'force-dynamic';
 
 export default async function SnippetsPage() {
   const snippets = await db.snippet.findMany();
